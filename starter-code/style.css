@@ -99,6 +99,7 @@ html{
     width:635px;
     height: 256px;
     margin: 0 auto;
+    padding-top: 80px;
 }
 
 .container-hero h1{
@@ -158,8 +159,124 @@ html{
     display: block;
 }
 
+/****************VALUES**********************/
+.value{
+    width: 100%;
+    height: 610px;
+    margin-top: 380px;
+    background-color: var(--purple100);
+}
+.container-value{
+    width: 1120px;
+    height: 306px;
+    display: flex;
+    gap: 50px;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: var(--purple100);
+}
+.values{
+    width: 314px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+    color: var(--purple900);
+}
+.values span{
+    font-family: 'Fraunces2',sans-serif;
+    font-size:2rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid var(--purple900);
+    width: 56px;
+    height: 56px;
+    font-weight: 600;
+}
+.values h2{
+    font-family: 'Fraunces2',sans-serif;
+    font-size:2rem;
+}
+.values p{
+    font-family: 'Fraunces',sans-serif;
+    font-size:15px;
+    text-align: center;
+    font-weight: normal;
+}
+.value .ornamental{
+    position: absolute;
+    width: 100%;
+    top: 1405px;
+}
+
+/*****************COUNT******************/
+.count{
+    width: 100%;
+    height: 691px;
+    margin-top: 40px;
+}
+.container-count{
+    display: flex;
+    width: 1120px;
+    height: 579px;
+    margin: 0 auto;
+    position: relative;
+    align-items: flex-start;
+}
+.photo-count{
+    width: 447px;
+    height: 579px;
+}
+.photo-count img{
+    width: 100%;
+}
+.count-content{
+    display: flex;
+    position:absolute;
+    bottom: 50px;
+    right: 10px;
+    width: 730px;
+    padding: 30px;
+    height: 350px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    background-color: var(--purple900);
+}
+
+.count-content h2{
+    font-family: 'Fraunces2',sans-serif;
+    font-size: 56px;
+    color: var(--white);
+}
+.count-content p{
+    font-family: 'Manrope',sans-serif;
+    font-size: 20px;
+    color: var(--white);
+    font-weight: lighter;
+}
+.btn-count{
+    padding: 16px 32px;
+    background-color: var(--green);
+    color: var(--purple900);
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
 
 
+.count-content button {
+    align-self: flex-start;
+}
 
 @media (max-width:520px)  {
     .Whirlpool, .Whirlpool2{
