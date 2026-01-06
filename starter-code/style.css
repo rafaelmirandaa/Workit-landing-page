@@ -166,6 +166,9 @@ html{
     margin-top: 380px;
     background-color: var(--purple100);
 }
+.values{
+    gap: 40px;
+}
 .container-value{
     width: 1120px;
     height: 306px;
@@ -173,11 +176,11 @@ html{
     gap: 50px;
     flex-direction: row;
     margin: 0 auto;
-    align-items: flex-start;
+    align-items:center;
     justify-content: space-between;
     background-color: var(--purple100);
 }
-.values{
+.value-content{
     width: 314px;
     display: flex;
     flex-direction: column;
@@ -187,7 +190,14 @@ html{
     text-align: center;
     color: var(--purple900);
 }
-.values span{
+.values-number{
+    width: 314px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.values-number span{
     font-family: 'Fraunces2',sans-serif;
     font-size:2rem;
     display:flex;
@@ -199,11 +209,11 @@ html{
     height: 56px;
     font-weight: 600;
 }
-.values h2{
+.value-content h2{
     font-family: 'Fraunces2',sans-serif;
     font-size:2rem;
 }
-.values p{
+.value-content p{
     font-family: 'Fraunces',sans-serif;
     font-size:15px;
     text-align: center;
@@ -304,6 +314,67 @@ footer{
     gap: 20px;
     justify-content: center;
 }
+@media (max-width:768px )  {
+    .navbar{
+        display: flex;
+        max-width: 90%;
+        justify-content:  space-between;
+        align-items: center;
+        height: 35px;
+        margin: 0 auto;
+        margin-top:50px;
+    }
+    .Whirlpool{
+    position: absolute;
+    top: -10px;
+    left: -210px;
+}
+    .Whirlpool2{
+        position: absolute;
+        top: 200px;
+        right:-90px
+    }
+    .hero{
+        height: 377px;
+    }
+    .container-hero{
+        width:435px;
+        padding-top: 50px;
+    }
+    .container-hero h1{
+        font-size: 55px;
+    }
+    .imagen-hero{
+        position: absolute;
+        top: 350px;        
+        left: 50%;
+        transform: translateX(-50%);
+        width: 420px;
+    }
+    .ornamental {
+        position: absolute;
+        width: 100%;
+        top: 377px;
+    }
+    .value{
+       margin-top: 250px;
+       height: auto;
+       padding-bottom: 80px;
+    }
+    .container-value{
+        width: 100%;
+        height: auto;
+        display: flex;
+        gap: 10px;
+        flex-direction:row;
+        margin: 0 auto;
+        align-items:flex-start;
+    }
+
+
+}
+
+
 
 @media (max-width:520px)  {
     .Whirlpool, .Whirlpool2{
@@ -363,5 +434,43 @@ footer{
         align-items: center;
         justify-content: space-between;
     }
-   
+    .count{
+       margin-top: 110px;
+       height: auto;
+       width: 100%;
+       position: relative;
+       margin-bottom: 110px;
+    }    
+    .container-count{
+        height: 625px;
+        width: 335px;
+        display: flex;
+        margin: 0 auto;
+    }
+    .count-content{
+        margin-top: 260px;
+        height: 400px;
+        width: 410px;
+        position: absolute;
+        bottom: -50px;
+        left: -40px;      
+        text-align: center; 
+        align-items: center;
+    }    
+    .count-content h2{
+        font-family: 'Fraunces2',sans-serif;
+        font-size: 40px;
+        color: var(--white);
+    }
+
+    .count-content button {
+        align-self:center;
+    }
+
+    footer{
+        width: 100%;
+        height: 200px;
+    }
+
 }
+
