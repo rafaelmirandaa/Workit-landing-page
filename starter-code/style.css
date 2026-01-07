@@ -162,12 +162,9 @@ html{
 /****************VALUES**********************/
 .value{
     width: 100%;
-    height: 610px;
+    height: 310px;
     margin-top: 380px;
     background-color: var(--purple100);
-}
-.values{
-    gap: 40px;
 }
 .container-value{
     width: 1120px;
@@ -222,14 +219,14 @@ html{
 .value .ornamental{
     position: absolute;
     width: 100%;
-    top: 1405px;
+    top:1380px;
 }
 
 /*****************COUNT******************/
 .count{
     width: 100%;
     height: 691px;
-    margin-top: 40px;
+    margin-top: 160px;
 }
 .container-count{
     display: flex;
@@ -424,6 +421,12 @@ footer{
        height: auto;
        padding-bottom: 80px;
     }
+    .value .ornamental{
+        margin-top: 219px;
+        height: auto;
+        padding-bottom: 80px;
+    }
+
     .container-value{
         width: 100%;
         height: auto;
