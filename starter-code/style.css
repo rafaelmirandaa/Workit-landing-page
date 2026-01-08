@@ -357,17 +357,32 @@ footer{
        margin-top: 250px;
        height: auto;
        padding-bottom: 80px;
+       height: 676px;
     }
     .container-value{
         width: 100%;
         height: auto;
         display: flex;
         gap: 10px;
-        flex-direction:row;
+        flex-direction:column;
         margin: 0 auto;
         align-items:flex-start;
+        background-color: red;
     }
-
+    .values{
+        display: flex;
+        gap: 10px;
+        flex-direction:row;
+        background-color: green;
+    }
+    .values .values-number{
+        display: flex;
+        justify-content: center;
+    }
+    .values .values-content{
+        display: flex;
+        justify-content: space-between;
+    }
 
 }
 
