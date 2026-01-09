@@ -311,7 +311,7 @@ footer{
     gap: 20px;
     justify-content: center;
 }
-@media (max-width:768px )  {
+@media (min-width:521px) and (max-width:768px) {
     .navbar{
         display: flex;
         max-width: 90%;
@@ -356,32 +356,51 @@ footer{
     .value{
        margin-top: 250px;
        height: auto;
-       padding-bottom: 80px;
-       height: 676px;
+       padding-bottom: 40px;
+       height: 576px;
     }
     .container-value{
         width: 100%;
         height: auto;
         display: flex;
-        gap: 10px;
+        gap: 50px;
         flex-direction:column;
         margin: 0 auto;
         align-items:flex-start;
-        background-color: red;
     }
     .values{
         display: flex;
-        gap: 10px;
         flex-direction:row;
-        background-color: green;
+        margin: 0 auto;
+        padding-top:40px ;
+    }
+
+    .value .ornamental {
+       position: absolute;
+        width: 100%;
+        top: 1294px;
     }
     .values .values-number{
         display: flex;
         justify-content: center;
+        width: 120px;
     }
-    .values .values-content{
+    .values .value-content{
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        width: 80%;
+        gap: 30px;
+    }
+    .value-content h2{
+        font-family: 'Fraunces2', sans-serif;
+        font-size: 28px;
+    }
+    .value-content p{
+        text-align: left;
+        font-family: 'Manrope';
+        font-size: 16px;
     }
 
 }
