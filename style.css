@@ -571,15 +571,15 @@ footer{
        margin-bottom: 110px;
     }    
     .container-count{
-        height: 625px;
-        width: 335px;
+        height: 100%;
+        width: auto;
         display: flex;
         margin: 0 auto;
     }
     .count-content{
         margin-top: 260px;
-        height: 400px;
-        width: 330px;
+        height: auto;
+        width: 90%;
         position: absolute;
         bottom: -50px;
         left:0.5px;      
