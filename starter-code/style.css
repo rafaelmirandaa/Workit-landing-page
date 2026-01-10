@@ -76,6 +76,9 @@ html{
     padding-bottom: 4px;
 }
 
+.nav-acc a:hover{
+    color: var(--green);;
+}
 
 .logo{
     display: flex;
@@ -126,6 +129,13 @@ html{
     cursor: pointer;
     transition: all 0.3s ease;
 }
+.btn-hero:hover{
+    background-color: #240533;
+    color:var(--green) ;
+    border: 2px solid var(--green);
+}
+
+
 .Whirlpool{
     position: absolute;
     top: 30px;
@@ -279,6 +289,13 @@ html{
     cursor: pointer;
     transition: all 0.3s ease;
 }
+.btn-count:hover{
+    background-color: #240533;
+    color:var(--green) ;
+    border: 2px solid var(--green);
+}
+
+
 .Whirlpool3{
     position: absolute;
     top: 210px;
@@ -311,6 +328,20 @@ footer{
     gap: 20px;
     justify-content: center;
 }
+.footer-icons img:nth-child(1):hover{
+    filter: brightness(0) saturate(100%) invert(29%) sepia(87%) saturate(2762%) hue-rotate(203deg);
+    cursor: pointer;
+}
+.footer-icons img:nth-child(2):hover {
+    filter: brightness(0) saturate(100%) invert(0%);
+    cursor: pointer;
+}
+.footer-icons img:nth-child(3):hover {
+    filter: brightness(0) saturate(100%) invert(36%) sepia(96%) saturate(749%) hue-rotate(312deg);
+    cursor: pointer;
+}
+
+
 @media (min-width:521px) and (max-width:768px) {
     .navbar{
         display: flex;
@@ -378,7 +409,7 @@ footer{
     .value .ornamental {
        position: absolute;
         width: 100%;
-        top: 1294px;
+        top: 1305px;
     }
     .values .values-number{
         display: flex;
@@ -402,6 +433,67 @@ footer{
         font-family: 'Manrope';
         font-size: 16px;
     }
+    .count{
+        height: 670px;
+    }
+    .container-count{
+        height: 558px;
+        width: 680px;
+        display: flex;
+        margin: 0 auto;
+        position: relative;
+    }
+    .photo-count{
+        width: 280px;
+        height: 558px;
+        position: absolute;
+        left: 40px;
+    }
+    .count-content{
+        margin-top: 260px;
+        height: 370px;
+        width: 404px;
+        position: absolute;
+        top: -90px;
+        left: 210px;      
+        text-align: left; 
+        align-items: flex-start;
+    }    
+    .count-content h2{
+        font-family: 'Fraunces2',sans-serif;
+        font-size: 48px;
+        color: var(--white);
+    }
+    .count-content p{
+        font-family: 'Manrope',sans-serif;
+        font-size:14px;
+        color: var(--white);
+        font-weight: lighter;
+        line-height: 1.7;
+    }  
+
+    .count-content button {
+        align-self:left;
+    }
+
+    .count-content .Whirlpool3{
+        position: absolute;
+        width: 173px;
+        height: 137px;
+        left:220px;
+        top: 250px;
+    }
+    .Whirlpool3 img{
+        width: 100%;
+    }
+    
+    footer{
+        width: 100%;
+        height: 200px;
+    }
+
+
+
 
 }
 
@@ -487,19 +579,25 @@ footer{
     .count-content{
         margin-top: 260px;
         height: 400px;
-        width: 410px;
+        width: 330px;
         position: absolute;
         bottom: -50px;
-        left: -40px;      
+        left:0.5px;      
         text-align: center; 
         align-items: center;
     }    
     .count-content h2{
         font-family: 'Fraunces2',sans-serif;
-        font-size: 40px;
+        font-size: 39px;
         color: var(--white);
     }
-
+    .count-content p{
+        font-family: 'Manrope',sans-serif;
+        font-size:17px;
+        color: var(--white);
+        font-weight: lighter;
+        line-height: 1.7;
+    } 
     .count-content button {
         align-self:center;
     }
