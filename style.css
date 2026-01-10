@@ -18,7 +18,7 @@ html{
 
 @font-face {
     font-family: 'Fraunces2';
-    src: url(/starter-code/assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf) format('truetype');
+    src: url(./assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf) format('truetype');
     font-weight: 600;
     font-style: normal;
 }
