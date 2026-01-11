@@ -548,7 +548,7 @@ footer{
        padding-bottom: 80px;
     }
     .value .ornamental{
-        margin-top: 219px;
+        margin-top: 240px;
         height: auto;
         padding-bottom: 80px;
     }
@@ -564,8 +564,8 @@ footer{
         justify-content: space-between;
     }
     .count{
-       margin-top: 110px;
-       height: auto;
+       margin-top: 160px;
+       height: 737px;
        width: 100%;
        position: relative;
        margin-bottom: 110px;
@@ -575,14 +575,23 @@ footer{
         width: auto;
         display: flex;
         margin: 0 auto;
+        position: relative;
+    
     }
+
+    .container-count .photo-count{
+        width: 280px;
+        height: 280px;
+        display: flex;
+        margin: 0 auto;
+    }
+
     .count-content{
         margin-top: 260px;
-        height: auto;
-        width: 90%;
+        height: 430px;
+        width: 330px;
+        right: 80px;
         position: absolute;
-        bottom: -50px;
-        left:0.5px;      
         text-align: center; 
         align-items: center;
     }    
